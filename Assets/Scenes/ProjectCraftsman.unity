@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 148872127}
   - component: {fileID: 148872133}
   - component: {fileID: 148872131}
-  - component: {fileID: 148872134}
+  - component: {fileID: 148872132}
   m_Layer: 5
   m_Name: UI_Canvas
   m_TagString: Untagged
@@ -749,15 +749,7 @@ MonoBehaviour:
   inventoryWindow: {fileID: 588747726}
   ordersWindow: {fileID: 772251580}
   shopWindow: {fileID: 245712241}
---- !u!222 &148872133
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148872126}
-  m_CullTransparentMesh: 0
---- !u!114 &148872134
+--- !u!114 &148872132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -770,7 +762,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragRectTransform: {fileID: 0}
-  canvas: {fileID: 148872129}
+  canvas: {fileID: 0}
+--- !u!222 &148872133
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148872126}
+  m_CullTransparentMesh: 0
 --- !u!1001 &174438987
 PrefabInstance:
   m_ObjectHideFlags: 0

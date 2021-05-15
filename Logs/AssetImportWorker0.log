@@ -460,3 +460,4 @@ Received Import Request.
 Start importing Assets/NOTES.cs using Guid(b0e8a6e8ce2bfb045a8cb02e66707afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddb631cfd377c9d5847f25f7b524bb0') in 0.009557 seconds
   Import took 0.012849 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
